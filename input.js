@@ -1,4 +1,5 @@
 function sbm(form) {
+  
   var nama = document.getElementById('name').value;
   var email = document.getElementById('email').value;
   var pesan = document.getElementById('pesan').value;
@@ -9,6 +10,14 @@ function sbm(form) {
   } else {
     alert('Anda harus mengisi data dengan lengkap !');
   }
+}
+
+function clear(){
+ let inputs=document.querySelectorAll('input');
+ let btnclear = document.querySelector('reset');
+ btnclear.addEventListener('click',()=>{
+    inputs.forEach(input => input.value = '');
+ });
 }
 
 // function refreshPage() {
