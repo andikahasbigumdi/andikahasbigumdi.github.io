@@ -16,3 +16,7 @@ footer {
 section {
   padding-top: 5rem;
 }
+
+.card-height {
+  height: 65%;
+}
