@@ -1,5 +1,5 @@
 :root {
-  --color-secondary: linear-gradient(to left bottom, #a190e1, #9b96e0, #969cde, #94a1db, #94a6d7, #8eaddd, #88b4e1, #83bbe4, #6dc8ed, #55d5f0, #43e1ec, #45ece2);
+  --color-secondary: #7f4cf7;
 }
 html,
 body {
@@ -37,7 +37,7 @@ footer {
 }
 
 #enter {
-  background: var(--color-secondary);
+  background: rgb(252, 237, 35);
 }
 #enter:hover {
   background: blueviolet;
