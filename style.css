@@ -33,7 +33,7 @@ section {
 
 footer {
   background: var(--color-secondary);
-  margin-bottom: 0;
+  margin: 0;
 }
 
 #enter {
@@ -42,4 +42,29 @@ footer {
 #enter:hover {
   background: blueviolet;
   color: white;
+}
+
+.imgwa {
+  height: 40px;
+  width: 40px;
+}
+
+.nomer:hover {
+  font-style: italic;
+  color: rgb(68, 223, 250);
+  text-decoration: underline;
+}
+.confooter li {
+  text-decoration: none;
+  display: inline-block;
+  width: 25px;
+}
+.confooter img {
+  height: 20px;
+  margin: 10px;
+  margin: 0;
+}
+
+.confooter ul {
+  margin: 0;
 }
