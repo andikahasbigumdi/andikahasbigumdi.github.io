@@ -57,7 +57,9 @@ footer {
 .confooter li {
   text-decoration: none;
   display: inline-block;
-  width: 25px;
+  width: fit-content;
+  min-height: 100%;
+  margin-left: 50px;
 }
 .confooter img {
   height: 20px;
@@ -65,6 +67,10 @@ footer {
   margin: 0;
 }
 
-.confooter ul {
+.confooter h3 {
   margin: 0;
+}
+
+.confooter p {
+  min-height: 100%;
 }
