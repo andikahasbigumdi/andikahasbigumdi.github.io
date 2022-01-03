@@ -74,3 +74,8 @@ footer {
 .confooter p {
   min-height: 100%;
 }
+
+#myproject{
+  height: 150px;
+  width: 350px;
+}
