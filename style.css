@@ -79,3 +79,13 @@ footer {
   height: 150px;
   width: 350px;
 }
+
+@media (max-width:380px) {
+  .navbar{
+    width: auto;
+
+  }
+  .nomer{
+    width: auto;
+  }
+}
