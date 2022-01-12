@@ -82,15 +82,24 @@ footer {
 
 @media (max-width:380px) {
   .navbar{
-    width: 380px; 
+    width: 350px; 
 
   }
-  .nomer, h4{
+
+  .jumbotron h1 {
+    text-decoration: none;
+    font-size: small;
+    font-size: 10px;
+  }
+  .nomer{
     font-size: 10px;
   }
 
-  .nomer,img{
-    width: 30px;
-    height: 30px;
+  .footer img{
+    width: 10px;
+    height: 10px;
+
   }
+
+
 }
