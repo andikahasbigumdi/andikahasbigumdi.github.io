@@ -82,22 +82,22 @@ footer {
 
 @media (max-width:380px) {
   .navbar{
-    width: 350px; 
+    width: 365px; 
 
   }
 
   .jumbotron h1 {
     text-decoration: none;
     font-size: small;
-    font-size: 10px;
+    font-size: 25px;
   }
   .nomer{
     font-size: 10px;
   }
 
   .footer img{
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 15px;
 
   }
 
